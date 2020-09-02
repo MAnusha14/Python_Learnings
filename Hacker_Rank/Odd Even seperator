@@ -1,0 +1,18 @@
+#To print the odd and even indexed character followed by a space
+
+for N in range(int(input())):
+    S = input()
+    print(S[::2], S[1::2])// s[::2] every other element, s[1::2] every other elements, starting from index 1
+	
+********************************************
+Sample Input
+
+2
+Hacker
+Rank
+********************************************
+Sample Output
+
+Hce akr
+Rn ak
+

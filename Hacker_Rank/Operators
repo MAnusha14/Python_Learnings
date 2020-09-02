@@ -1,0 +1,27 @@
+# to print Total cost using function
+
+meal_Cost = float(input())
+tip_Percent = int(input())
+tax_Percent = int(input())
+
+def myFunc(meal_Cost,tip_Percent,tax_Percent):
+    tip = meal_Cost * (tip_Percent / 100 )
+    tax = meal_Cost * (tax_Percent / 100 )
+    total_Cost = meal_Cost + tip + tax
+
+    return round(total_Cost)
+
+print(myFunc(meal_Cost,tip_Percent,tax_Percent))
+
+********************************************************
+
+Sample Input
+
+12.00
+20
+8
+Sample Output
+
+15
+
+********************************************************
